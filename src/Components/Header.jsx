@@ -1,6 +1,5 @@
 import React from "react"
 import styled from "styled-components"
-import NavLogo from "../assets/react.svg"
 const Header = () =>{
     return(
       <Container>
