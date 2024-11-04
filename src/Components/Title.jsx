@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 import { RxGithubLogo } from "react-icons/rx";
 import { FaLinkedin } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
@@ -12,12 +12,12 @@ const Title = () =>{
             <Button>
                 <ConBtn>CONTACT ME <GoDotFill /></ConBtn>
                 <LinBtn><a href="http://linkedin.com/in/Bamigboye-ezekiel"><FaLinkedin style={{color:"#D3E97A"}}/></a></LinBtn>
-                <GitBtn><a href="http://github.com/Ezekiel764"><RxGithubLogo style={{color:"#D3E97A"}}/></a></GitBtn>
+                <GitBtn><a href="http://github.com/Ezekiel764"><RxGithubLogo style={{color:"#D3E97A"}}  /></a></GitBtn>
             </Button>
         </Container>
     )
 }
-export default Title
+export default Title 
 
 const Container = styled.div`
     text-align: center;

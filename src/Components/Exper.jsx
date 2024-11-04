@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 import { RiJavascriptFill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa6";
@@ -15,7 +15,7 @@ const Exper = () => {
             <p>As a Web Developer with a strong foundation in React.js, I specialize in creating dynamic, responsive web applications that provide outstanding user experiences. My React Native experience has equipped me to build seamless cross-platform mobile applications for both iOS and Android. I’m skilled in component-based architecture and state management, enabling me to develop fast, scalable, and interactive web pages. Staying current with the latest technologies, I ensure that my solutions are modern, efficient, and optimized for performance.</p>
             <h4>Skills:</h4>
             <Skill>
-                <Jav><RiJavascriptFill style={{color:"#D3E97A"}} size={30}/><br />JavaScript</Jav>
+                <Jav><RiJavascriptFill style={{color:"#D3E97A"}} size={30} /><br />JavaScript</Jav>
                 <Rea><FaReact style={{color:"#D3E97A"}} size={30}/><br />React</Rea>
                 <Httm><FaHtml5 style={{color:"#D3E97A"}} size={30}/><br />Html 5</Httm>
                 <Ccs><IoLogoCss3 style={{color:"#D3E97A"}} size={30}/><br />Css 3</Ccs>
