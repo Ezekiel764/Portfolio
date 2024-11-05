@@ -35,6 +35,10 @@ color: black;
 border: none;
 border-radius: 8px;
 margin-right: 10px;
+
+@media (max-width: 600px) {
+    margin-top: 8px;
+}
 `
 const LinBtn = styled.button`
 width: 25px;

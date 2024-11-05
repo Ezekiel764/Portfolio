@@ -24,4 +24,9 @@ max-width: max-content;
 p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+h1{
+  @media (max-width: 600px) {
+    
+  }  
+}
 `
