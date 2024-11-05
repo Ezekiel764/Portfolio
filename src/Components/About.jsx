@@ -4,7 +4,7 @@ import { MdPersonSearch } from "react-icons/md";
 const About = () => {
     return(
         <Container>
-            <h1>ABOUT ME <br /><MdPersonSearch style={{color:"#D3E97A"}} /></h1>
+            <h1>ABOUT<br /><MdPersonSearch style={{color:"#D3E97A"}} /></h1>
             <p>Experienced and detail-oriented Software Developer, developing, and maintaining complex
 applications and systems. Proficient in front-end development, with strong skills in [specific
 languages, frameworks, or technologies, e.g., JavaScript, Python, React, Node.js]. Known for a
@@ -25,6 +25,7 @@ p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h1{
+    width: auto;
   @media (max-width: 600px) {
     
   }  
