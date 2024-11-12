@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import Profile from "../assets/Profile.jpg"
+import Profile from "../assets/Profile1.jpg"
 const Me = () =>{
     return(
       <ImageCon>
