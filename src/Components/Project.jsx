@@ -6,6 +6,7 @@ import { HiExternalLink } from "react-icons/hi";
 const Project = () => {
     return(
         <Section>
+            <hr />
             <h1>PROJECTS</h1>
             <br />
             <BoxOne>
@@ -20,7 +21,7 @@ const Project = () => {
                 <WorkTwo>
                     <img src={Kuda} alt="" />
                     <h3>Kuda Clone</h3>
-                    <p>this is the Destop landimg page of Kuda <br /> it dispalys diffent sectios </p>
+                    <p>this is the Desktop landing page of Kuda <br /> it dispalys different sections </p>
                     <VenBt><a href="https://kuda-clone-bay.vercel.app/"><HiExternalLink style={{color:"#D3E97A"}} /></a></VenBt>
                 </WorkTwo>
             </BoxOne>
@@ -31,6 +32,7 @@ export default Project
 
 const Section = styled.div`
 text-align: center;
+margin-top: 30px;
 `
 const BoxOne = styled.div`
 align-items: center;

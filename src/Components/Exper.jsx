@@ -7,6 +7,7 @@ import { SiTypescript } from "react-icons/si";
 const Exper = () => {
     return(
         <Contain>
+            <hr />
             <h1>EXPERIENCE</h1>
             <JobTitle>
                 <Job>Software Engineer</Job>

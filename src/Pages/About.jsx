@@ -20,9 +20,15 @@ export default About
 
 const Container = styled.div`
 text-align: center;
-max-width: max-content;
+max-width: ma;
+@media screen {
+    min-width: 300px;
+    text-align: center;
+}
 p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    text-align: center;
 }
 h1{
     width: auto;

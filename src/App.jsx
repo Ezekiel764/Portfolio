@@ -1,24 +1,22 @@
 import Header from "./Components/Header"
-import Me from "./Components/Me"
-import Title from "./Components/Title"
-import About from "./Components/About"
-import Exper from "./Components/Exper"
-import Project from "./Components/Project"
+import About from "./Pages/About"
+import Home from "./Pages/Home"
+import Contact from "./Pages/Contact"
 import "./App.css"
 import React from "react"
+import {BrowserRouter,Routes,Route} from "react-router-dom"
 
 const App = () =>{
   return(
     <div>
       <Header/>
-      <Me/>
-      <Title/>
-      <br />
-      <About/>
-      <br />
-      <Exper/>
-      <br />
-      <Project/>
+      <BrowserRouter>
+       <Routes>
+        <Route path="/" element={<Home/>}></Route>
+        <Route path="/about" element={<About/>}></Route>
+        <Route path="/contact" element={<Contact/>}></Route>
+       </Routes>
+      </BrowserRouter>
     </div>
   )
 }
